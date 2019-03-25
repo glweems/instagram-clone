@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d3f90af4-9f90-45dd-91c9-c52db2c5076b/deploy-status)](https://app.netlify.com/sites/vigorous-mestorf-9af7ee/deploys)
+
 # React-Insta-Clone
 
 ## Introduction
