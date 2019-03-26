@@ -9,7 +9,8 @@
     "react-dom": "^16.8.5",
     "react-scripts": "^2.1.8",
     "reset-css": "^4.0.1",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "@fortawesome/fontawesome-free": "^5.8.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,28 +21,6 @@
     "lint:fix": "eslint . --fix",
     "now-build": "npm run build"
   },
-  "eslintConfig": {
-    "parser": "babel-eslint",
-    "extends": [
-      "wesbos"
-    ],
-    "rules": {
-      "import/no-unresolved": false,
-      "no-nested-ternary": 0,
-      "camelcase": 0,
-      "undefined": 0,
-      "react/display-name": 0,
-      "no-unused-expressions": 0,
-      "react/jsx-no-undef": 0,
-      "no-undef": 0,
-      "react/no-danger": 0
-    },
-    "settings": {
-      "react": {
-        "version": "latest"
-      }
-    }
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
@@ -50,7 +29,7 @@
   ],
   "devDependencies": {
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.12.0npm ",
+    "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-config-wesbos": "0.0.19",
