@@ -1,8 +1,8 @@
 {
-  "version": 2,
   "name": "lambda-project",
+  "version": 2,
   "alias": [
-    "instagram-clone.now.sh"
+    "gw-instagram-clone.now.sh"
   ],
   "builds": [
     {

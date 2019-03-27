@@ -1,44 +1,50 @@
 {
-  "name": "instagram-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "instagram-clone",
+  "version": "0.0.1",
+  "description": "Instagram lookalike",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glweems/instagram-clone.git"
+  },
+  "keywords": [
+    "react",
+    "instagram",
+    "clone"
+  ],
+  "author": "Garrett Weems <gwgraphicdesign@gmail.com> (https://glweems.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glweems/instagram-clone/issues"
+  },
+  "homepage": "https://github.com/glweems/instagram-clone#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "normalize-css": "^2.3.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "2.1.8",
     "reset-css": "^4.0.1",
-    "styled-components": "^4.2.0",
-    "@fortawesome/fontawesome-free": "^5.8.1"
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "now-build": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "eslint": "^5.12.0",
-    "babel-eslint": "^9.0.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-config-wesbos": "0.0.19",
-    "eslint-plugin-html": "^5.0.3",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.6.0",
-    "prettier": "^1.16.4"
-  }
+  ]
 }

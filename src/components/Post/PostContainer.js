@@ -78,7 +78,7 @@ export default class PostContainer extends Component {
     const { comments, newComment } = this.state;
     e.preventDefault();
     const commentObj = {
-      username: 'glweems',
+      username: localStorage.getItem('user'),
       text: newComment,
     };
     if (newComment !== '')
@@ -121,8 +121,8 @@ export default class PostContainer extends Component {
         </div>
       </StyledPost>
     ) : (
-      'loading'
-    );
+        'loading'
+      );
   }
 }
 
